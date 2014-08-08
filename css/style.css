@@ -248,7 +248,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 /* Welcome content */
 
 .welcome {
-	padding:15px 0 10px;
+	/*padding:15px 0 10px;*/
 	text-align: justify;
 }
 
@@ -277,13 +277,15 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 
 .welcome .try img {
 	display: table;
-	width: 433px;
+	width: 433px;	
+	height: auto;
 	margin: 0 auto;
 }
 
 .welcome .try .button-container {
 	display: table;
 	width: 395px;
+	text-align: center;
 	margin: 0 auto;
 }
 
@@ -291,7 +293,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 
 .services {
 	background: #cc5c50;
-	padding: 10px 0 60px;
+	padding: 0 0 30px;
 	color: #fff;
 }
 
@@ -307,11 +309,12 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 	font-size:14px;
 	line-height:24px;
 	color:#fff;
+	text-align: justify;
 }
 
 .service-item {
-	margin-bottom: 15px;
-	padding-top: 80px
+	margin-bottom: 60px;
+	padding-top: 25px
 }
 
 i.service-icon {
@@ -358,7 +361,7 @@ i.service-icon {
 /* Screenshots content */
 
 .sshots {
-	padding:60px 0 85px;
+	padding:30px 0 30px;
 }
 
 .shot-wrap {
@@ -529,14 +532,14 @@ i.service-icon {
 /* Pricing content */
 
 .panel-body .panel-title .starting{
-	font-size: 25px;
-	line-height: 30px;
+	font-size: 20px;
+	line-height: 20px;
 	font-weight: 300;
 }
 
 .panel-body .panel-title .price{
-	font-size: 58px;
-	line-height: 50px;
+	font-size: 45px;
+	line-height: 40px;
 	font-weight: 600;
 	letter-spacing: -2px;
 }
@@ -751,7 +754,7 @@ i.service-icon {
 .contact {
 	color: #ffffff;
 	background: #cc5c50;
-	padding: 20px 0 30px;
+	padding: 5px 0 5px;
 }
 
 /* Map Styles */
@@ -1069,8 +1072,55 @@ footer .copyright a:hover {
 	background: #882c9c !important;
 }
 
+/* equal height rows */
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.custom-btn-wrapper{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+/* bootstrap mod */
+
+.list-group-item {
+	padding: 2px 15px;
+}
+
 @media (max-width: 767px) {
 
+.row-eq-height {
+  display: block;
+}
+
+.custom-btn-wrapper{
+	position: relative;
+}
+
+.service-item {
+margin-bottom: 10px;
+}
+
+.welcome .try img {
+	display: table;
+	width: 350px;	
+	height: auto;
+	margin: 0 auto;
+}
+
+.welcome .try .button-container {
+	display: table;
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+}
 
 }
 
