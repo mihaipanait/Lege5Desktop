@@ -80,7 +80,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .top-header .versions-container .online-btn{
 	top: 196px;
 	left: 29px;
-	background: url('../images/online.png') no-repeat center center;
+	background: url('../images/online-gray.png') no-repeat center center;
 }
 
 .top-header .versions-container .online-btn:hover{
@@ -90,7 +90,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .top-header .versions-container .cloud-btn{
 	top: 70px;
 	left: 270px;
-	background: url('../images/cloud.png') no-repeat center center;
+	background: url('../images/cloud-gray.png') no-repeat center center;
 }
 
 .top-header .versions-container .cloud-btn:hover{
@@ -100,7 +100,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .top-header .versions-container .mobile-btn{
 	top: 75px;
 	left: 100px;
-	background: url('../images/mobile.png') no-repeat center center;
+	background: url('../images/mobile-gray.png') no-repeat center center;
 }
 
 .top-header .versions-container .mobile-btn:hover{
@@ -155,7 +155,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .mobile-ecosystem .versions-container .online-btn{
 	top: 215px;
 	left: 200px;
-	background: url('../images/online.png') no-repeat center center;
+	background: url('../images/online-gray.png') no-repeat center center;
 }
 
 .mobile-ecosystem .versions-container .online-btn:hover{
@@ -165,7 +165,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .mobile-ecosystem .versions-container .cloud-btn{
 	top: 380px;
 	left: 200px;
-	background: url('../images/cloud.png') no-repeat center center;
+	background: url('../images/cloud-gray.png') no-repeat center center;
 }
 
 .mobile-ecosystem .versions-container .cloud-btn:hover{
@@ -175,7 +175,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .mobile-ecosystem .versions-container .mobile-btn{
 	top: 296px;
 	left: 96px;
-	background: url('../images/mobile.png') no-repeat center center;
+	background: url('../images/mobile-gray.png') no-repeat center center;
 }
 
 .mobile-ecosystem .versions-container .mobile-btn:hover{
