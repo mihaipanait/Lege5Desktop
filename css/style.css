@@ -299,7 +299,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 
 .services h4 {
 	font-size:20px;
-	margin:25px 0 15px;
+	margin:0px 0 15px;
 	font-weight:500;
 	border-bottom: white solid 1px;
 	padding-bottom: 20px;
@@ -458,11 +458,12 @@ i.service-icon {
 }
 
 .tabs-content {
-	padding:20px 0;
+	/*padding:20px 0; */
 }
 
 .tabs-content h2 {
 	font-size: 20px;
+	margin-left: 15px;
 }
 
 .nav-tabs a {
@@ -538,7 +539,7 @@ i.service-icon {
 }
 
 .panel-body .panel-title .price{
-	font-size: 45px;
+	font-size: 50px;
 	line-height: 40px;
 	font-weight: 600;
 	letter-spacing: -2px;
