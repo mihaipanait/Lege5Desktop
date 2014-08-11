@@ -19,9 +19,35 @@ $(document).ready(function($) {
       smoothScroll.init();
 });
 
+// Owl Top-slider
+$(document).ready(function($) {
+      $("#owl-top-slider").owlCarousel({
+ 
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 200,
+      autoplayHoverPause: true,
+
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+});
+
 // Owl Carousel
 $(document).ready(function($) {
-      $("#owl-example").owlCarousel();
+      $("#owl-example").owlCarousel({
+        navigation : true
+      });
 });
 
 // Custom Tab styles

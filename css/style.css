@@ -54,17 +54,26 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 	font-weight: 400;
 }
 
+/* Slider Section */
+
+.slider-section{
+	margin-top: 111px;
+	background-color: #f4f2ef;
+}
+
 /* top content */
 
 .top-header {
-	padding-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	color: #f8f8f8;	
-	background: url('../images/desktop-bg.jpg') no-repeat left center;
-	background-color: #d4d6cb;
+	/*background: url('../images/desktop-bg.jpg') no-repeat left center;*/
+	background-color: #f6f4f3;
+	border-top: #d7d9da 3px solid;
 }
 
 .top-header .versions-container {
-	margin-top: 75px;
+	/* margin-top: 75px; */
 	margin-left: 20px;
 	padding-bottom: 15px;
 }
@@ -78,7 +87,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 }
 
 .top-header .versions-container .online-btn{
-	top: 196px;
+	top: 121px;
 	left: 29px;
 	background: url('../images/online-gray.png') no-repeat center center;
 }
@@ -88,7 +97,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 }
 
 .top-header .versions-container .cloud-btn{
-	top: 70px;
+	top: -5px;
 	left: 270px;
 	background: url('../images/cloud-gray.png') no-repeat center center;
 }
@@ -98,7 +107,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 }
 
 .top-header .versions-container .mobile-btn{
-	top: 75px;
+	top: 0;
 	left: 100px;
 	background: url('../images/mobile-gray.png') no-repeat center center;
 }
@@ -108,7 +117,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 }
 
 .top-header .versions-container .desktop-btn{
-	top: 275px;
+	top: 200px;
 	left: 125px;
 	background: url('../images/desktop.png') no-repeat center center;
 }
@@ -121,7 +130,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 	position: absolute;
 	width: 240px;
 	height: 90px;
-	top: 200px;
+	top: 125px;
 	left: 218px;
 	background: url('../images/logo-lege.png') no-repeat center center;
 }
@@ -211,7 +220,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 
 .top-message {
 	position: relative;
-	padding-top: 80px;
+	/* padding-top: 80px; */
 	padding-bottom: 10px;
 	padding-right: 0px;
 }
@@ -1093,6 +1102,15 @@ footer .copyright a:hover {
 
 .list-group-item {
 	padding: 2px 15px;
+}
+
+
+/* Owl top slider */
+
+#owl-top-slider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 767px) {
