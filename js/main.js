@@ -24,12 +24,11 @@ $(document).ready(function($) {
       $("#owl-top-slider").owlCarousel({
  
       navigation : false, // Show next and prev buttons
-      slideSpeed : 300,
+      slideSpeed : 400,
       paginationSpeed : 400,
       singleItem:true,
       dots: false,
-      autoplay: true,
-      autoplayTimeout: 200,
+      autoPlay : true,
       autoplayHoverPause: true,
 
  
