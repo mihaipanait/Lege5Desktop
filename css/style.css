@@ -326,46 +326,46 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 	padding-top: 25px
 }
 
-i.service-icon {
-	border: 2px solid #fff;
-	color:#fff;
-	border-radius: 50%;
+.services .service-item .image-link{
 	display: inline-block;
-	font-size: 40px;
 	width: 100px;
 	height: 100px;
-	line-height: 100px;
-	vertical-align: middle; 
-	text-align: center;
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	transition: all 0.4s;
-	position:relative;
 }
 
-.service-item:hover {
-	cursor:pointer;
+.services .service-item .cautare-btn{
+	background: url('../images/cautare.png') no-repeat center center;
 }
 
-.service-item:hover i.service-icon{
-	font-size:28px;
+.services .service-item .cautare-btn:hover{
+	background-image: url('../images/cautare-over.png');
 }
 
-.service-item:hover i.service-icon:after {
-	content:'';
-	border:4px solid #fff;
-	position:absolute;
-	color:#fff;
-	width:95%;
-	height:96%;
-	left:3%;
-	right:0%;
-	top:2%;
-	border-radius:50%;
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	transition: all 0.4s;
+.services .service-item .comparare-btn{
+	background: url('../images/comparare.png') no-repeat center center;
 }
+
+.services .service-item .comparare-btn:hover{
+	background-image: url('../images/comparare-over.png');
+}
+
+
+.services .service-item .istoric-btn{
+	background: url('../images/istoric.png') no-repeat center center;
+}
+
+.services .service-item .istoric-btn:hover{
+	background-image: url('../images/istoric-over.png');
+}
+
+
+.services .service-item .versionare-btn{
+	background: url('../images/versionare.png') no-repeat center center;
+}
+
+.services .service-item .versionare-btn:hover{
+	background-image: url('../images/versionare-over.png');
+}
+
 
 /* Screenshots content */
 
