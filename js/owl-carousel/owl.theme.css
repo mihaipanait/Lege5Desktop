@@ -100,7 +100,7 @@
 	background: url(AjaxLoader.gif) no-repeat center center
 }
 
-#owl-example .owl-item .shot-wrap > img {
+#pictures-slider .owl-item .shot-wrap > img {
     display: block;
     width: auto;
 	height: 195px;
@@ -133,7 +133,7 @@
 }
 
 @media only screen and (min-width: 250px) and (max-width: 785px) {
-#owl-example .owl-item .shot-wrap > img {
+#pictures-slider .owl-item .shot-wrap > img {
     width: auto;
 	height: auto;
 }

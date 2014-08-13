@@ -23,28 +23,19 @@ $(document).ready(function($) {
 $(document).ready(function($) {
       $("#owl-top-slider").owlCarousel({
  
-      navigation : false, // Show next and prev buttons
+      navigation : false,
       slideSpeed : 400,
       paginationSpeed : 400,
       singleItem:true,
       dots: false,
       autoPlay : true,
-      autoplayHoverPause: true,
-
- 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
+      autoplayHoverPause: true, 
   });
 });
 
 // Owl Carousel
 $(document).ready(function($) {
-      $("#owl-example").owlCarousel({
+      $("#pictures-slider").owlCarousel({
         navigation : true
       });
 });
