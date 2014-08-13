@@ -800,14 +800,13 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 
 .contact-info {
 	padding:0px;
-	width: 220px;
+	width: 210px;
 	margin: 0 auto;	
 	margin-top: 20px;
 }
 
 .contact-info li {
 	list-style: none;
-	margin-right: 50px;
 	font-size: 18px;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: italic;
