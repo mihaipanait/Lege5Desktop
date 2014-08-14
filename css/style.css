@@ -548,7 +548,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 }
 
 .panel-body .panel-title .price{
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 40px;
 	font-weight: 600;
 	letter-spacing: -2px;
@@ -706,16 +706,28 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .panel-heading-2 {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:30px;
-	line-height:70px;
+	line-height:40px;
 	font-weight:400;
 	color:#fff;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -30px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	border-radius: 5px;
 	border-bottom: 5px solid transparent;
 	position: relative;
+}
+
+.small-heading{
+	font-size: 20px !important;
+}
+
+.extra-padding{
+	padding-bottom: 56px;
+	padding-top: 12px;
 }
 
 .panel-heading-2-green {
@@ -731,7 +743,11 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .panel-heading-2-red {
 	background-color: #fc6657;
 	border-color: #b2483e;
-	padding-bottom: 20px;
+}
+
+.no-padding {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
 }
 
 /* Clients content */
@@ -1073,6 +1089,18 @@ footer .copyright a:hover {
 	background: #95d066 !important;
 }
 
+.ligth-green-bg{
+	background: #EEF7E7 !important;
+}
+
+.ligth-red-bg{
+	background: #F7E7E7 !important;
+}
+
+.ligth-blue-bg{
+	background: #DAE6F5 !important;
+}
+
 .magenta-text{
 	color: #882c9c !important;
 }
@@ -1100,7 +1128,7 @@ footer .copyright a:hover {
 /* bootstrap mod */
 
 .list-group-item {
-	padding: 2px 15px;
+	padding: 6px 15px;
 }
 
 
