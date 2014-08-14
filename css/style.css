@@ -579,8 +579,12 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 }
 
 .list-group-item {
-	color: #757575;
+	color: #000000;
 	font-size: 14px;
+}
+
+.big-text{
+	font-size: 16px !important;
 }
 
 .list-group .btn {
@@ -728,6 +732,11 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 .extra-padding{
 	padding-bottom: 56px;
 	padding-top: 12px;
+}
+
+.extra-margin{
+	margin-bottom: 18px !important;
+	margin-top: 29px !important;
 }
 
 .panel-heading-2-green {
