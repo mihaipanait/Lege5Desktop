@@ -107,7 +107,20 @@
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    margin-bottom:4px;
+    /*margin-bottom:4px;*/
+}
+
+#pictures-slider div .caption {
+    text-align: center;
+	background-color: rgb(228, 228, 228);
+	line-height: 25px;
+	font-size: 14px;
+	padding-top: 0;
+	margin-top: 0;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 0px;
 }
 
 @media only screen and (min-width: 250px) and (max-width: 1279px) {
