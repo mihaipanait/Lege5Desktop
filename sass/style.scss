@@ -1,5 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
+$main-color: #cc5c50;
+$footer-color: #4a4a4a;
 
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
 
 body, html {
 	height: 100%;
@@ -298,7 +301,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 /* Services content */
 
 .services {
-	background: #cc5c50;
+	background: $main-color;
 	padding: 0 0 30px;
 	color: #fff;
 
@@ -424,7 +427,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 
 .pricing {
 	padding:50px 0 0 0;
-	background:#cc5c50;
+	background:$main-color;
 
 	.panel-default {
 		border-color: #ccc;
@@ -667,7 +670,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 
 .contact{
 	color: #ffffff;
-	background: #cc5c50;
+	background: $main-color;
 	padding: 5px 0 5px;
 
 	.contact-info {
@@ -697,7 +700,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 		margin: 10px auto;
 
 		.btn {
-			color:#cc5c50;
+			color:$main-color;
 			background-color: #fff;
 			width: 30px;
 			height: 30px;
@@ -752,7 +755,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 footer{
 
 	.copyright {
-		background-color: #4a4a4a;	
+		background-color: $footer-color;	
 		padding: 15px 0;
 
 		p {
