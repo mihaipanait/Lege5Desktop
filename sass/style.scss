@@ -120,7 +120,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 			left: 125px;
 			background: url('../images/desktop.png') no-repeat center center;
 
-			&hover{
+			&:hover{
 				background-image: url('../images/desktop-over.png');
 			}
 		}

@@ -89,7 +89,7 @@ a.anchor {
       top: 200px;
       left: 125px;
       background: url("../images/desktop.png") no-repeat center center; }
-      .top-header .versions-container .desktop-btnhover {
+      .top-header .versions-container .desktop-btn:hover {
         background-image: url("../images/desktop-over.png"); }
     .top-header .versions-container .lege-btn {
       position: absolute;
