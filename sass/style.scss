@@ -555,6 +555,7 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 	&:before {
 		border-bottom:14px solid #b2483e;
 	}
+}
 
 .best-offer{
 	position: absolute;
@@ -991,10 +992,10 @@ footer{
 /* equal height rows */
 
 .row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
 }
 
 .custom-btn-wrapper{
@@ -1014,9 +1015,9 @@ footer{
 /* Owl top slider */
 
 #owl-top-slider .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 @media (max-width: 767px) {
@@ -1053,4 +1054,3 @@ footer{
 	}
 
 }
-

@@ -345,55 +345,47 @@ a.anchor {
   background-color: #95d066;
   border-color: #699349;
   position: relative; }
-
-.panel-heading-1:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-bottom: 14px solid #699349;
-  border-right: 23px solid transparent;
-  position: absolute;
-  right: -23px; }
-
-.panel-heading-1:before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-bottom: 14px solid #699349;
-  border-left: 23px solid transparent;
-  position: absolute;
-  left: -23px; }
+  .panel-heading-1:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 14px solid #699349;
+    border-right: 23px solid transparent;
+    position: absolute;
+    right: -23px; }
+  .panel-heading-1:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 14px solid #699349;
+    border-left: 23px solid transparent;
+    position: absolute;
+    left: -23px; }
 
 .panel-heading-1-green {
   background-color: #95d066;
   border-color: #699349; }
-
-.panel-heading-1-green:after {
-  border-bottom: 14px solid #699349; }
-
-.panel-heading-1-green:before {
-  border-bottom: 14px solid #699349; }
+  .panel-heading-1-green:after {
+    border-bottom: 14px solid #699349; }
+  .panel-heading-1-green:before {
+    border-bottom: 14px solid #699349; }
 
 .panel-heading-1-blue {
   background-color: #3b99d8;
   border-color: #2678bd; }
-
-.panel-heading-1-blue:after {
-  border-bottom: 14px solid #2678bd; }
-
-.panel-heading-1-blue:before {
-  border-bottom: 14px solid #2678bd; }
+  .panel-heading-1-blue:after {
+    border-bottom: 14px solid #2678bd; }
+  .panel-heading-1-blue:before {
+    border-bottom: 14px solid #2678bd; }
 
 .panel-heading-1-red {
   background-color: #fc6657;
   border-color: #b2483e;
   padding-bottom: 20px; }
-
-.panel-heading-1-red:after {
-  border-bottom: 14px solid #b2483e; }
-
-.panel-heading-1-red:before {
-  border-bottom: 14px solid #b2483e; }
+  .panel-heading-1-red:after {
+    border-bottom: 14px solid #b2483e; }
+  .panel-heading-1-red:before {
+    border-bottom: 14px solid #b2483e; }
 
 .best-offer {
   position: absolute;
@@ -428,17 +420,6 @@ a.anchor {
   border-bottom: 5px solid transparent;
   position: relative; }
 
-.small-heading {
-  font-size: 20px !important; }
-
-.extra-padding {
-  padding-bottom: 56px;
-  padding-top: 12px; }
-
-.extra-margin {
-  margin-bottom: 18px !important;
-  margin-top: 29px !important; }
-
 .panel-heading-2-green {
   background-color: #95d066;
   border-color: #699349; }
@@ -451,9 +432,20 @@ a.anchor {
   background-color: #fc6657;
   border-color: #b2483e; }
 
+.small-heading {
+  font-size: 20px !important; }
+
 .no-padding {
   padding-right: 0 !important;
   padding-left: 0 !important; }
+
+.extra-padding {
+  padding-bottom: 56px;
+  padding-top: 12px; }
+
+.extra-margin {
+  margin-bottom: 18px !important;
+  margin-top: 29px !important; }
 
 /* Tabs content */
 .tabs-content {
