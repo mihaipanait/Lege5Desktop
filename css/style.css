@@ -209,7 +209,7 @@ a.anchor {
 
 /* Services content */
 .services {
-  background: #cc5c50;
+  background: #c5493c;
   padding: 0 0 30px;
   color: #fff; }
   .services h4 {
@@ -297,7 +297,7 @@ a.anchor {
 /* Pricing content */
 .pricing {
   padding: 50px 0 0 0;
-  background: #cc5c50; }
+  background: #c5493c; }
   .pricing .panel-default {
     border-color: #ccc;
     padding: 15px 0;
@@ -467,7 +467,7 @@ a.anchor {
 /* Contact Info */
 .contact {
   color: #ffffff;
-  background: #cc5c50;
+  background: #c5493c;
   padding: 5px 0 5px; }
   .contact .contact-info {
     padding: 0px;
@@ -489,7 +489,7 @@ a.anchor {
     width: 220px;
     margin: 10px auto; }
     .contact .cinfo-social-buttons .btn {
-      color: #cc5c50;
+      color: #c5493c;
       background-color: #fff;
       width: 30px;
       height: 30px;
@@ -710,6 +710,9 @@ footer .copyright {
 /* bootstrap mod */
 .list-group-item {
   padding: 6px 15px; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #c5493c; }
 
 /* Owl top slider */
 #owl-top-slider .item img {
