@@ -371,20 +371,52 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 			padding-top: 25px;
 			margin-bottom: 10px;
 
+			img{
+				width: 100%;
+				height: auto;
+			}
+
 			h4 {
-				font-size:20px;
+				font-size:32px;
 				margin:0px 0 15px;
-				font-weight:500;
-				border-bottom: white solid 1px;
-				padding-bottom: 20px;
+				font-weight:300;				
+				display: table;
+
+				.description-title{
+					display: table-cell;
+					vertical-align: middle;
+				}
+
+				.image-link{
+					display: table-cell;
+					vertical-align: middle;
+					width: 100px;
+					height: 100px;
+				}
+
+				.cautare-btn{
+					background: url('../images/cautare-over.png') no-repeat center center;
+				}
+
+				.comparare-btn{
+					background: url('../images/comparare-over.png') no-repeat center center;
+				}
+
+				.istoric-btn{
+					background: url('../images/istoric-over.png') no-repeat center center;
+				}
+
+				.versionare-btn{
+					background: url('../images/versionare-over.png') no-repeat center center;
+				}
 			}
 
 			p {
-				font-size:14px;
-				line-height:24px;
+				font-size:16px;
+				line-height:30px;
 				color:#fff;
 				text-align: justify;
-			}
+			}				
 		}
 	}
 }
