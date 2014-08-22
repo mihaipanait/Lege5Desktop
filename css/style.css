@@ -212,40 +212,56 @@ a.anchor {
   background: #c5493c;
   padding: 0 0 30px;
   color: #fff; }
-  .services h4 {
-    font-size: 20px;
-    margin: 0px 0 15px;
-    font-weight: 500;
-    border-bottom: white solid 1px;
-    padding-bottom: 20px; }
-  .services p {
-    font-size: 14px;
-    line-height: 24px;
-    color: #fff;
-    text-align: justify; }
-  .services .service-item {
-    margin-bottom: 60px;
-    padding-top: 25px; }
-    .services .service-item .image-link {
-      display: inline-block;
-      width: 100px;
-      height: 100px; }
-    .services .service-item .cautare-btn {
-      background: url("../images/cautare.png") no-repeat center center; }
-      .services .service-item .cautare-btn:hover {
-        background-image: url("../images/cautare-over.png"); }
-    .services .service-item .comparare-btn {
-      background: url("../images/comparare.png") no-repeat center center; }
-      .services .service-item .comparare-btn:hover {
-        background-image: url("../images/comparare-over.png"); }
-    .services .service-item .istoric-btn {
-      background: url("../images/istoric.png") no-repeat center center; }
-      .services .service-item .istoric-btn:hover {
-        background-image: url("../images/istoric-over.png"); }
-    .services .service-item .versionare-btn {
-      background: url("../images/versionare.png") no-repeat center center; }
-      .services .service-item .versionare-btn:hover {
-        background-image: url("../images/versionare-over.png"); }
+  .services .container {
+    position: relative; }
+    .services .container .service-item {
+      margin-bottom: 60px;
+      padding-top: 25px; }
+      .services .container .service-item h4 {
+        font-size: 20px;
+        margin: 0px 0 15px;
+        font-weight: 500;
+        border-bottom: white solid 1px;
+        padding-bottom: 20px; }
+      .services .container .service-item p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        text-align: justify; }
+      .services .container .service-item .image-link {
+        display: inline-block;
+        width: 100px;
+        height: 100px; }
+      .services .container .service-item .cautare-btn {
+        background: url("../images/cautare.png") no-repeat center center; }
+        .services .container .service-item .cautare-btn:hover {
+          background-image: url("../images/cautare-over.png"); }
+      .services .container .service-item .comparare-btn {
+        background: url("../images/comparare.png") no-repeat center center; }
+        .services .container .service-item .comparare-btn:hover {
+          background-image: url("../images/comparare-over.png"); }
+      .services .container .service-item .istoric-btn {
+        background: url("../images/istoric.png") no-repeat center center; }
+        .services .container .service-item .istoric-btn:hover {
+          background-image: url("../images/istoric-over.png"); }
+      .services .container .service-item .versionare-btn {
+        background: url("../images/versionare.png") no-repeat center center; }
+        .services .container .service-item .versionare-btn:hover {
+          background-image: url("../images/versionare-over.png"); }
+    .services .container .details {
+      padding-top: 25px;
+      margin-bottom: 10px; }
+      .services .container .details h4 {
+        font-size: 20px;
+        margin: 0px 0 15px;
+        font-weight: 500;
+        border-bottom: white solid 1px;
+        padding-bottom: 20px; }
+      .services .container .details p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        text-align: justify; }
 
 /* Screenshots content */
 .sshots {
