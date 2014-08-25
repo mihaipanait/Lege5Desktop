@@ -18,10 +18,6 @@ app.controller("classCtrl",function($scope, $timeout, $location){
 			$scope.sections[2].show = false;
 			$scope.sections[3].show = false;
 			$scope.sections[4].show = true;
-
-			//$location.path('/details').search({tab: 1});
-			console.log($location.path());
-			$location.search({service: 1});
 		}
 		else if (senderSection.name === "two"){
 			$scope.sections[0].show = false;   

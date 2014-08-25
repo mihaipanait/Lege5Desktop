@@ -1,3 +1,4 @@
+@charset "IBM437";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
 body, html {
   height: 100%;
@@ -251,6 +252,20 @@ a.anchor {
     .services .container .details {
       padding-top: 25px;
       margin-bottom: 10px; }
+      .services .container .details a.boxclose {
+        float: right;
+        margin-top: 0px;
+        margin-right: 0px;
+        cursor: pointer;
+        color: #FFF;
+        background: #DD4A4A;
+        font-size: 40px;
+        font-weight: 300;
+        display: inline-block;
+        line-height: 0px;
+        padding: 15px 5px; }
+      .services .container .details .boxclose:before {
+        content: "×"; }
       .services .container .details img {
         width: 100%;
         height: auto; }
