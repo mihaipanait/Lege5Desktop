@@ -1,6 +1,6 @@
 var app = angular.module("app",[]);
 
-app.controller("classCtrl",function($scope, $timeout, $location){
+app.controller("classCtrl",function($scope, $timeout){
 
 	$scope.sections = [{ "name":"one", "show": true }, 
 						{ "name":"two", "show": true },
