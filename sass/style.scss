@@ -377,17 +377,22 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 				margin-right: 0px;
 				cursor: pointer;
 				color: #FFF;
-				background: #DD4A4A;
+				background: #A03FBE;
 				font-size: 40px;
 				font-weight: 300;
 				display: inline-block;
 				line-height: 0px;
-				padding: 15px 5px;      
+				width: 30px;
+				height: 30px;   
 			}
 
 			.boxclose:before {
-				content: "×";
-
+				content: "\78"; //"x"
+				font-family: "icomoon", sans-serif;
+				position: relative;
+				font-size: 32px;
+				top: 13px;
+				left: -2px;
 			}
 
 			img{
