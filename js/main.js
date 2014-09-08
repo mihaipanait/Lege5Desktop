@@ -8,7 +8,7 @@ $('.tooltip-social').tooltip({
 $(document).ready(function($) {
 	$('#main-slider').flexslider({
 		animation: "fade",
-		slideshowSpeed: 4500,
+		slideshowSpeed: 5000,
 		controlNav: false,
 		directionNav: false
 	});
