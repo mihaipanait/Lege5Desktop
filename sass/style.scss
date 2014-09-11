@@ -270,6 +270,10 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 		font-size:16px;
 		margin:0 auto 30px;
 		line-height:25px;
+
+		a{
+			color: #B64040;
+		}
 	}
 
 	li {
@@ -1103,6 +1107,19 @@ footer{
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
 	color: $main-color;
+}
+
+/* selection color */
+/* Mozilla based browsers */
+::-moz-selection {
+       background-color: #8BDB4B;
+       color: #fff;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #8BDB4B;
+       color: #fff;
 }
 
 

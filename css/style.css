@@ -189,6 +189,8 @@ a.anchor {
     font-size: 16px;
     margin: 0 auto 30px;
     line-height: 25px; }
+    .welcome p a {
+      color: #B64040; }
   .welcome li {
     font-size: 16px;
     margin-bottom: 10px; }
@@ -772,6 +774,17 @@ footer .copyright {
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #c5493c; }
+
+/* selection color */
+/* Mozilla based browsers */
+::-moz-selection {
+  background-color: #8BDB4B;
+  color: #fff; }
+
+/* Works in Safari */
+::selection {
+  background-color: #8BDB4B;
+  color: #fff; }
 
 /* Owl top slider */
 #owl-top-slider .item img {
