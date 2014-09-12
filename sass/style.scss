@@ -290,7 +290,19 @@ a.anchor{display: block; position: relative; top: -110px; visibility: hidden;}
 			display: table;
 			width: 433px;	
 			height: auto;
+			height: 230px\9;
 			margin: 0 auto;
+
+			background: url('../images/computers.png') no-repeat left top\9;
+			//background: transparent\0/;
+ 			//filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='image',src='images/computers.png');   /* IE7 */      
+			//-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='image',src='images/computers.png')"; /* IE8 */ 
+			//background: transparent\9;
+			//-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='image',src='images/computers.png')"; /* IE8 */   
+			//filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='image',src='images/computers.png');   /* IE6 & 7 */  
+   			//-ms-filter: filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);   
+   			//filter: filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+   			//zoom: 1;
 		}
 
 		.button-container {

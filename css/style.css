@@ -202,7 +202,9 @@ a.anchor {
       display: table;
       width: 433px;
       height: auto;
-      margin: 0 auto; }
+      height: 230px\9;
+      margin: 0 auto;
+      background: url("../images/computers.png") no-repeat left top\9; }
     .welcome .try .button-container {
       display: table;
       width: 395px;
